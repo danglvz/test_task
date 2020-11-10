@@ -1,7 +1,8 @@
+#include "task.h"
 #include <iostream>
 #include <cstring>
 #include <cassert>
-#include "task.h"
+
 
 
 class device_1 : public test_task::device_adapter{
