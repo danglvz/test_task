@@ -3,6 +3,7 @@
 #include <cassert>
 #include "task.h"
 
+
 class device_1 : public test_task::device_adapter{
 public:
     void connect() override {
@@ -155,7 +156,7 @@ int main() {
     assert(expected_string_first_sub == sub_1.getData());
     assert(expected_string_second_sub == sub_2.getData());
 
-    //устройства посылаю массив типа int
+    //устройства посылают массив типа int
     test_task::publisher publisher_int_type;
     device_int_type dev_int;
     subscriber_int_type sub_int;
