@@ -10,7 +10,7 @@
 
 namespace test_task {
 
-    //интерфейс подписчикв
+    //интерфейс подписчика
     class subscriber_interface {
     public:
         virtual void update_data(const std::vector<uint8_t> &data) = 0;
